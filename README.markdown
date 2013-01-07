@@ -15,8 +15,8 @@ A sentiment analysis tool that will output a rating between 1 (negative) and 5 (
 
 The code can be found in the mapreduce folder. MapReduce was used to extract the desired features from the training and testing data. The feature set consists of :
 	
-* One-Gram scores 
-* One-Gram count
+* Uni-Gram scores 
+* Uni-Gram count
 * Bi-Gram score
 * Bi-Gram count
 * Positive Word count
