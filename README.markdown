@@ -1,5 +1,4 @@
 # CS 205 Final Project - Sentiment Analysis
-## 
 
 ###Authors
 
@@ -11,8 +10,6 @@
 ###Description
 
 A sentiment analysis tool that will output a rating between 1 (negative) and 5 (positive) for a given text. A random forest classifier is built using MPI and trained on the Yelp academic dataset, which was pre-processed using MapReduce. The dataset consisted of ~300,000 annotated reviews and was split into a training corpus and testing corpus (in a 4:1 ratio). All the data is in the folder 'data'.
-
-## Code
 
 ### Phase 1: Preprocessing Using MapReduce
 
