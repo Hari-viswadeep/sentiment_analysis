@@ -15,10 +15,10 @@ A sentiment analysis tool that will output a rating between 1 (negative) and 5 (
 
 The code can be found in the mapreduce folder. MapReduce was used to extract the desired features from the training and testing data. The feature set consists of :
 	
-* Uni-Gram scores 
-* Uni-Gram count
-* Bi-Gram score
-* Bi-Gram count
+* Unigram scores 
+* Unigram count
+* Bigram score
+* Bigram count
 * Positive Word count
 * Negative Word count
 * Character count
@@ -30,7 +30,7 @@ The code can be found in the mapreduce folder. MapReduce was used to extract the
 * Ratio of Uppercase to Lowercase characters
 * Ratio of Alphabets to Total Character count
 
-The One-gram and Bi-gram scores for the text are calculated based on an index of one-gram and bi-gram scores created using the entire training corpus.
+The unigram and bigram scores for the text are calculated based on an index of one-gram and bi-gram scores created using the entire training corpus.
 
 ### Phase 2: Training Random Forest Classifier
 
